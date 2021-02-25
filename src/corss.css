@@ -290,6 +290,15 @@ html {
 .txt-justify {
   text-align: justify;
 }
+.txt-normal {
+  font-style: normal;
+}
+.txt-italic {
+  font-style: italic;
+}
+.txt-bold {
+  font-weight: bold;
+}
 
 /* various */
 
