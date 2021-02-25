@@ -1,4 +1,4 @@
 # corss
-A core css. Primary goal was to learn
-
-Doc is [here](index.htm)
+Primary goal was to learn
+A core css file. No style, only structure.
+Read the doc [here](https://raster77.github.io/corss/)
