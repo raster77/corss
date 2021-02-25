@@ -1,0 +1,302 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Core documentation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../src/corss.css">
+    <link rel="stylesheet" href="css/doc.css">
+    <link rel="stylesheet" href="css/prism.css">
+</head>
+
+<body>
+    <div id="sideNav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
+        <a href="#border">Border</a>
+        <a href="#container">Container</a>
+        <a href="#font">Font</a>
+        <a href="#grid">Grid</a>
+        <a href="#text">Text</a>
+
+    </div>
+    <div id="main"><span onclick="toggleNav()">&#9776;</span></div>
+
+    <div class="container width-75 container-center">
+        <div class="col-100 padding-top-large">
+            <h1 class="txt-center no-margin padding-left-small">corss documentation</h1>
+        </div>
+
+        <!--border-->
+        <div id="border" class="row container-center padding-top-large">
+            <div class="col-100">
+                <h1 class="txt-left no-margin padding-left-small">Border</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="col-100 padding-left-large">
+            <h2 class="margin-bottom-small padding-top-large cssclass">.border</h2>
+            <div class="padding-left-large">
+                <pre class="language-html width-auto"><code class=" language-html">&lt;div class="border"&gt;&lt;/div&gt;</pre></code>
+                <div class="row container-center">
+                    <div class="col-10 margin-top border gray">&nbsp;</div>
+                </div>
+            </div>
+
+            <h2 class="margin-bottom-small padding-top-large cssclass">.border-bottom</h2>
+            <div class="padding-left-large">
+                <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="border-bottom"&gt;&lt;/div&gt;</pre></code>
+                <div class="row container-center">
+                    <div class="col-10 margin-top border-bottom gray">&nbsp;</div>
+                </div>
+            </div>
+
+            <h2 class="margin-bottom-small padding-top-large cssclass">.border-left</h2>
+            <div class="padding-left-large">
+                <pre class="language-html width-auto"><code class=" language-html">&lt;div class="border-left"&gt;&lt;/div&gt;</pre></code>
+                <div class="row container-center">
+                    <div class="col-10 margin-top border-left gray">&nbsp;</div>
+                </div>
+            </div>
+
+            <h2 class="margin-bottom-small padding-top-large cssclass">.border-right</h2>
+            <div class="padding-left-large">
+                <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="border-right"&gt;&lt;/div&gt;</pre></code>
+                <div class="row container-center">
+                    <div class="col-10 margin-top border-right gray">&nbsp;</div>
+                </div>
+            </div>
+
+            <h2 class="margin-bottom-small padding-top-large cssclass">.border-top</h2>
+            <div class="padding-left-large">
+                <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="border-top"&gt;&lt;/div&gt;</pre></code>
+                <div class="row container-center">
+                    <div class="col-10 margin-top border-top gray">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <!--container-->
+        <div id="container" class="row container-center">
+            <div class="col-100">
+                <h1 class="txt-left no-margin padding-left-small">Container</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row container-center">
+            <div class="col-100 padding-left-large">
+                <h2 class="margin-bottom-small padding-top-large cssclass">.container-center</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="container-center"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <div class="col-20 container-center margin gray">&nbsp;</div>
+                    </div>
+                </div>
+
+                <h2 class="margin-bottom-small padding-top-large cssclass">.container-left</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="container-left"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <div class="col-20 container-left margin gray">&nbsp;</div>
+                    </div>
+                </div>
+
+                <h2 class="margin-bottom-small padding-top-large cssclass">.container-right</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="container-right"&gt;&lt;/div&gt;</pre></code>
+                </div>
+                <div class="col-20 container-right margin gray">&nbsp;</div>
+
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <!--font-->
+        <div id="font" class="row container-center">
+            <div class="col-100">
+                <h1 class="txt-left no-margin padding-left-small">Fonts</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row container-center">
+            <div class="col-100 padding-left-large">
+                <h2 class="margin-bottom-small padding-top-large cssclass">.font-small</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;p class="font-small"&gt;Small font&lt;/p&gt;</pre></code>
+                    <p class="margin-small font-small">Small font.</p>
+                </div>
+                <h2 class="margin-bottom-small padding-top-large cssclass">.font-regular</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;p class="font-regular"&gt;Regular font&lt;/p&gt;</pre></code>
+                    <p class="margin-small font-regular">Regular font.</p>
+                </div>
+                <h2 class="margin-bottom-small padding-top-large cssclass">.font-large</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;p class="font-large"&gt;Large font&lt;/p&gt;</pre></code>
+                    <p class="no-margin font-large">Large font.</p>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <!--grid-->
+        <div id="grid" class="row container-center">
+            <div class="col-100">
+                <h1 class="txt-left no-margin padding-left-small">Grid</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row container-center">
+            <div class="col-100 padding-left-large">
+                <h2 class="margin-bottom-small padding-top-large cssclass">.row</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="row"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row gray">&nbsp;</div>
+                </div>
+
+                <h2 class="margin-bottom-small padding-top-large cssclass">.col-10</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="col-10"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <div class="col-10 margin-top gray">&nbsp;</div>
+                    </div>
+                </div>
+
+                <h2 class="margin-bottom-small padding-top-large cssclass">.col-20</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="col-20"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <div class="col-20 margin-top gray">&nbsp;</div>
+                    </div>
+                </div>
+
+                <h2 class="margin-bottom-small padding-top-large cssclass">.col-30</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="col-30"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <div class="col-30 margin-top gray">&nbsp;</div>
+                    </div>
+                </div>
+
+                <h2 class="margin-bottom-small padding-top-large cssclass">.col-40</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="col-40"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <div class="col-40 margin-top gray">&nbsp;</div>
+                    </div>
+                </div>
+
+                <h2 class="margin-bottom-small padding-top-large cssclass">.col-50</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="col-50"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <div class="col-50 margin-top gray">&nbsp;</div>
+                    </div>
+                </div>
+
+                <h2 class="margin-bottom-small padding-top-large cssclass">.col-60</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="col-60"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <div class="col-60 margin-top gray">&nbsp;</div>
+                    </div>
+                </div>
+
+                <h2 class="margin-bottom-small padding-top-large cssclass">.col-70</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="col-70"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <div class="col-70 margin-top gray">&nbsp;</div>
+                    </div>
+                </div>
+
+                <h2 class="margin-bottom-small padding-top-large cssclass">.col-80</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="col-80"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center no-padding">
+                        <div class="col-80 margin-top gray">&nbsp;</div>
+                    </div>
+                </div>
+
+                <h2 class="margin-bottom-small padding-top-large cssclass">.col-90</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="col-90"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <div class="col-90 margin-top gray">&nbsp;</div>
+                    </div>
+                </div>
+
+                <h2 class="margin-bottom-small padding-top-large cssclass">.col-100</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="col-100"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <div class="col-100 margin-top gray">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <!--text-->
+        <div id="text" class="row container-center">
+            <div class="col-100">
+                <h1 class="txt-left no-margin padding-left-small">Text</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row container-center">
+            <div class="col-100 padding-left-large">
+                <h2 class="margin-bottom-small padding-top-large cssclass">.text-center</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="text-center"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <p class="txt-center width-50">Praesent vel eros fringilla, tincidunt augue et, vehicula purus. In sit amet risus maximus, placerat eros condimentum, tincidunt est. Maecenas tempor orci nunc, nec convallis magna faucibus in. Mauris porttitor ante ac neque pulvinar,
+                            vitae tempus quam pellentesque. Mauris condimentum libero eget pretium suscipit. Aliquam ac neque eget tellus porttitor egestas ac et neque. Etiam vehicula dui id elementum mollis.</p>
+                        </p>
+                    </div>
+                </div>
+                <h2 class="margin-bottom-small padding-top-large cssclass">.text-left</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="text-left"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <p class="txt-left width-50">Praesent vel eros fringilla, tincidunt augue et, vehicula purus. In sit amet risus maximus, placerat eros condimentum, tincidunt est. Maecenas tempor orci nunc, nec convallis magna faucibus in. Mauris porttitor ante ac neque pulvinar,
+                            vitae tempus quam pellentesque. Mauris condimentum libero eget pretium suscipit. Aliquam ac neque eget tellus porttitor egestas ac et neque. Etiam vehicula dui id elementum mollis.</p>
+                        </p>
+                    </div>
+                </div>
+                <h2 class="margin-bottom-small padding-top-large cssclass">.text-right</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="text-right"&gt;&lt;/div&gt;</pre></code>
+                </div>
+                <p class="txt-right width-50">Praesent vel eros fringilla, tincidunt augue et, vehicula purus. In sit amet risus maximus, placerat eros condimentum, tincidunt est. Maecenas tempor orci nunc, nec convallis magna faucibus in. Mauris porttitor ante ac neque pulvinar,
+                    vitae tempus quam pellentesque. Mauris condimentum libero eget pretium suscipit. Aliquam ac neque eget tellus porttitor egestas ac et neque. Etiam vehicula dui id elementum mollis.</p>
+                </p>
+                <h2 class="margin-bottom-small padding-top-large cssclass">.text-justify</h2>
+                <div class="padding-left-large">
+                    <pre class=" language-html width-auto"><code class=" language-html">&lt;div class="text-justify"&gt;&lt;/div&gt;</pre></code>
+                    <div class="row container-center">
+                        <p class="txt-justify width-50">Praesent vel eros fringilla, tincidunt augue et, vehicula purus. In sit amet risus maximus, placerat eros condimentum, tincidunt est. Maecenas tempor orci nunc, nec convallis magna faucibus in. Mauris porttitor ante ac neque pulvinar,
+                            vitae tempus quam pellentesque. Mauris condimentum libero eget pretium suscipit. Aliquam ac neque eget tellus porttitor egestas ac et neque. Etiam vehicula dui id elementum mollis.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">&nbsp;</div>
+    </div>
+
+    <script src="js/prism.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+
+        function toggleNav() {
+            var v = document.getElementById("sideNav").style.width === "8rem" ? "0" : "8rem"
+            document.getElementById("sideNav").style.width = v;
+            document.getElementById("main").style.marginLeft = v;
+        }
+    </script>
+
+</body>
+
+</html>

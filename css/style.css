@@ -1,0 +1,11 @@
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+body {
+  font-family: roboto;
+}
+.article .date {
+  font-size: smaller;
+  letter-spacing: .5rem;
+}

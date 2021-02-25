@@ -1,0 +1,136 @@
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+body {
+  background-color: #283339;
+  color: #c8c8c8;
+  font-family: roboto;
+  font-size: .9rem;
+  letter-spacing: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 1.5rem;
+  margin: 0 0 1rem;
+  color: #0B87DA;
+}
+h1,
+h2,
+h3,
+h4,
+strong {
+  font-weight: 600;
+}
+p,
+ul {
+  line-height: 1.6rem;
+  word-spacing: .05rem;
+  line-height: 1.7rem;
+}
+.cssclass {
+  color: #a6e22e;
+}
+.footer {
+  min-height: 15rem;
+}
+.gray {
+  background-color: rgb(80, 80, 80);
+}
+
+/* sidenav */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 2rem;
+  overflow-y: auto;
+  top: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #aaa;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+#main {
+  transition: margin-left .5s;
+  padding-top: .8rem;
+  padding-left: .5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  overflow-y: scroll;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  overflow: hidden;
+}
+#main :hover {
+  color: white;
+}
+::-webkit-scrollbar {
+  width: .8rem;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* spacer */
+
+.spacer {
+  min-height: 3rem;
+}
+
+/*media */
+
+@media only screen and (max-width: 480px) {
+  code[class*="language-"],
+  pre[class*="language-"] {
+    font-size: .8rem !important;
+  }
+  .padding-left-large {
+    padding-left: 0;
+  }
+}
+@media only screen and (min-width: 1281px) {
+  .width-auto {
+    max-width: fit-content;
+  }
+}
