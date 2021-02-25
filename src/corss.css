@@ -252,6 +252,7 @@ html {
 }
 .container-center {
   margin: auto;
+  justify-content: center;
 }
 
 /* Borders */

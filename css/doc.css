@@ -117,6 +117,9 @@ ul {
 .spacer {
   min-height: 3rem;
 }
+.img-footer {
+  margin-top: -.2em;
+}
 
 /*media */
 
